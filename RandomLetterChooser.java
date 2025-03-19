@@ -5,7 +5,7 @@ public class RandomLetterChooser extends RandomStringChooser
    
    public RandomLetterChooser( String str )
       {
-
+         super(getSingleLetters(str));
       } // end one-arg constructor
      
    public static String[] getSingleLetters( String str )
